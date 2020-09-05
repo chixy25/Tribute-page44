@@ -1,0 +1,185 @@
+html,
+body {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+  #main {
+    height: 3000px;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 0.5%;
+  }
+
+  #title {
+    /* describes the subject of the tribute page */
+    font-size: 1.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+    
+ .para {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (min-width:900px) {
+  
+  p{
+    font-size: small;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-right: 25px;
+    font-weight: 500;
+    line-height: 28px;
+}
+  
+ #img-div {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: 50%;
+    width: 50%;
+    margin-top: 43px;
+    margin-left: 20px;
+    margin-right: 9%;
+    padding-right: 14px;
+    padding-top: 43px;
+}
+
+#image {
+    width: 70em;
+    height: 54em;
+    margin-left: 74px;
+    margin-right: 54px;
+}
+
+  #tribute-info {
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  ul, li {
+    /* lay the unordered list */
+    font-size: small;
+    font-weight: 400;
+    font-family: Arial;
+    margin-left: 15px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 25px;
+  }
+  
+  h4 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  #tribute-link {
+    font-size: bold;
+    font-family: Arial;
+  } 
+}
+
+
+
+
+
+@media (max-width: 900px) {
+  /* resizing tribute page for mobile */
+  html,
+  body {
+    height: 90%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Courier;
+  }
+  
+  #main {
+    height: 1900px;
+    width: 115%;
+    background-color: #dcdcdc;
+    border-radius: 0.5%;
+    margin-bottom: 0px;
+    margin-top: -25px;
+    margin-right: 5px;
+}
+
+#title {
+    /* describes the subject of the tribute page */
+    font-size: 1.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.para {
+  text-align: center;
+  font-weight: 400;
+}
+
+  p {
+    font-size: small;
+    font-family: Arial;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+  #img-div {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    height: auto;
+    width: 90.9%;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 5%;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+  
+
+  #image {
+    /* sizing the image */
+    width: 328px;
+    height:200px;
+    margin-left: 24px;
+  }
+  
+  #tribute-info {
+    height: 300px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  ul, li {
+    /* lay the unordered list */
+    font-size: small;
+    font-weight: 300;
+    font-family: Arial;
+    margin-left: 12px;
+    margin-right: 8px;
+    text-align: justify;
+    line-height: 20px;
+  }
+  
+  h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #tribute-link {
+    font-size: bold;
+    font-family: Arial;
+  }
+}
